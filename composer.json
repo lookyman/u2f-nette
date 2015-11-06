@@ -1,0 +1,30 @@
+{
+	"name": "lookyman/u2f-nette",
+	"description": "",
+	"keywords": ["Nette", "FIDO", "U2F"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Lukáš Unger",
+			"email": "looky.msc@gmail.com",
+			"homepage": "https://lookyman.net"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"latte/latte": "^2.3",
+		"lookyman/u2f": "^1.0",
+		"nette/application": "^2.3",
+		"nette/di": "^2.3",
+		"nette/forms": "^2.3"
+	},
+	"require-dev": {
+		"nette/robot-loader": "^2.3",
+		"phpunit/phpunit": "^4.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"lookyman\\U2fNette\\": "src/"
+		}
+	}
+}
